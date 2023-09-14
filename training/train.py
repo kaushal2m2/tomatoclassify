@@ -10,6 +10,10 @@ EPOCHS = 35
 n_classes = 3
 
 # this file is for training the model to classify potatoes, not tomatoes
+# THIS FILE HAS NOTHING TO DO WITH WHERE THE MODEL WAS ACTUALLY TRAINED
+# THIS WAS JUST A PRACTICE RUN WITH A SMALLER DATASET
+# classifying potatoes however was almost 96% accurate, due to only being 3 classes
+
 # the jupyter notebook is for training the model to classify tomatoes
 
 # cpu only, used since tensorflow mac doesn't support GPU for RandomFlip
