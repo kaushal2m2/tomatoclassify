@@ -15,3 +15,7 @@ I'm looking into changes such as other optimizers like SGD, adding learning rate
 ### Note
 
 In training, there is also train.py which uses a dataset of potatoes, which has 3 classes, and was trained in a similar model. That model achieved about 96% accuracy, but the only reason I did it was as a trial run for this project, so that model is not saved anywhere or used anywhere. It just exists for some valuable comments.
+
+## Architecture
+
+The model is saved in model/{model_version}. This model is served using flask to localhost port 5000, which makes the model available to the frontend.
