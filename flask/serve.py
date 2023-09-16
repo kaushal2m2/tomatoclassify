@@ -15,7 +15,7 @@ from flask import make_response
 app = Flask(__name__)
 CORS(app)
 
-model = load_model('../model/2', compile=False)
+model = load_model('../model/4', compile=False)
 print('Model loaded')
 classes = ['Tomato_Bacterial_spot', 'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_Leaf_Mold', 'Tomato_Septoria_leaf_spot', 'Tomato_Spider_mites_Two_spotted_spider_mite', 'Tomato__Target_Spot', 'Tomato__Tomato_YellowLeaf__Curl_Virus', 'Tomato__Tomato_mosaic_virus', 'Tomato_healthy']
 
